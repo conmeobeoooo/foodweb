@@ -1,0 +1,174 @@
+.wrapper{
+    padding-top: 70px;
+}
+
+.container-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: #fff;
+    height: 70px;
+}
+
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+}
+
+.header-content{
+    position: relative;
+    margin: 0;
+    min-height: 42px;
+    height: 100%;
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between!important;
+}
+
+.align-items-center{
+    align-items: center!important;
+}
+
+.header-logo{
+    right: 100%;
+    cursor: pointer;
+    margin-right: 72px;
+    padding-left: 0;
+    position: static;
+}
+
+.header-logo-img{
+    height: 30px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1700px){
+    .container-header .header-logo{
+        position: static;
+    }
+}
+
+.select-local{
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    position: relative;
+    padding: 0;
+}
+
+.dropdown-btn{
+    color: #252525;
+    border: 0;
+    padding: 10px 27px 10px 19px;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown-btn:after{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -2px;
+    border-top-color: #acacac;
+}
+
+.header-list-item{
+    padding-left: 48px;
+    padding-right: 0;
+    white-space: nowrap;
+}
+
+.col{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+
+
+.header-item{
+    color: #252525;
+    cursor: pointer;
+    padding: 10px 12px 21px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: 4px solid transparent;
+    font-size: 15px;
+}
+
+.header-item:hover{
+    color: #ee4d2d;
+}
+
+.active {
+    color: #ee4d2d;
+    font-weight: 700;
+    border-bottom-color: #ee4d2d;
+}
+
+.icon-search {
+    cursor: pointer;
+    margin-top: 8.5px;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://shopeefood.vn/app/assets/img/search-dark.svg?d823a303f13589fc674bf1d5f00677ad);
+    background-size: cover;
+}
+
+.icon{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+
+.btn{
+    color: #fff;
+    background-color: #0288d1;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #0288d1;
+    border-radius: 6px;
+    padding: 0.23rem 0.6rem;
+    font-size: .875rem;
+    /* line-height: 1.5; */
+    border-radius: 3px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-login{
+    font-size: 14px;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 10px 14px;
+    background-color: #fff;
+    border-color: #ee4d2d;
+    color: #ee4d2d;
+}

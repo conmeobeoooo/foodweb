@@ -1,0 +1,54 @@
+
+.home-banner{
+    width: 100%;    
+    background-color: #000;
+    padding: 10px 0;
+    height: 440px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.banner-item { 
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: 385px;
+    margin-right: auto;
+}
+.slick-slider{
+    height: 450px;
+    text-align: center;
+}
+
+.slick-track{
+    opacity: 1;
+    transform: translate3d(234px, 0px, 0px);
+    width: 675px;
+    height: 355px;
+}
+
+.banner-item-img{
+    width: 675px;
+    border-radius: 0;
+    height: 355px;
+    display: block;
+}
+
+.banner-caption{
+    width: 677px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.banner-caption-name{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.banner-caption__desc{
+    line-height: 26px;
+    font-size: 15px;
+}

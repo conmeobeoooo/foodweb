@@ -1,0 +1,310 @@
+.box-delivery{
+    border: 1px solid #d6d6d6;
+    display: block;
+    float: left;
+    width: 1172px;
+    font-size: 14px;
+    margin: 20px 0 0;
+    box-sizing: border-box;
+}
+
+.delivery-header{
+    height: 60px;
+    background: #fff;
+    padding-left: 15px;
+    line-height: 60px;
+    box-sizing: border-box; 
+}
+
+.avatar-box{
+    float: left;
+    width: 172px;
+    height: 60px;
+}
+
+.avatar{
+    display: block;
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin: 10px 15px 0 0;
+}
+
+.avatar-img{
+    display: block;
+    content: ' ';
+    width: 40px;
+    height: 40px;
+    background: no-repeat center center;
+    background-size: contain;
+    float: left;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    float: left;
+    margin-top: 20px;
+}
+
+.nav-box-list {
+    margin: 0;
+    padding-left: 10px;
+    max-width: 770px;
+    height: 60px;
+    float: left;
+}
+
+.nav-box__red {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+/* .nav-box__link {
+    display: flex;
+    padding: 0 8px;
+    text-decoration: none;
+} */
+
+
+
+/* .nav-box__red::after{
+    display: block;
+    content: ' ';
+    border: 1px solid #d02128;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+} */
+
+.nav-box__item {
+    display: flex;
+    padding: 0 8px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+.nav-box__text {
+    color: #4f4f4f;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 0;
+    width: 100%;
+}
+
+.nav-box-text__red {
+    color: #d02128;
+    font-size: 15px;
+    padding-bottom: 5px; border-bottom: #c00 2px solid;
+    /* font-weight: 500; */
+}
+
+.btn-more-icon {
+    font-size: 12.5px;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.menu-items {
+    position: relative;
+    width: 1150px;
+    padding: 15px 0 0 20px;
+    height: 525px;
+    background-color: #eeeeee;
+}
+
+.list-items{
+    width: 1150px;
+}
+
+.item{
+    display: block;
+    position: relative;
+    float: left;
+    width: 218px;
+    height: 272px;
+    margin: 0 10px 10px 0;
+    background-color: #fff;
+}
+
+.avatar-item{
+    display: block;
+    float: left;
+    max-width: 218x;
+    height: 142px;
+    width: 100%;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-topright: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.item-img{
+    /* display: block; */
+    float: left;
+    width: 227px;
+    height: 142px;
+    border-radius: 0;
+    margin-left: -5px;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+}
+
+.item-title {
+    font-weight: 700;
+    padding: 10px 10px 0;
+    height: 19px;   
+
+}
+
+.title-text {
+    position: relative;
+    top: 3px;
+    font-size: 14.5px;
+    font-weight: 700;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.limit-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #fff;
+}
+
+.item-address{
+    color: #777;
+    font-size: 12.5px;
+    padding: 5px 10px 10px;
+    margin-bottom: 10px;
+    height: 16px;
+}
+
+.info-item{
+    height: 40px;
+    padding: 10px;
+    position: relative;
+    height: 38px;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: #fff;
+}
+
+.info-item:before{
+    display: block;
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #f6f6f6;
+}
+
+.info-item-icon {
+    width: 12px;
+    height: 14px;
+    color: #ff0000;
+    padding-top: 4px;
+    padding-right: 5px;
+}
+
+.li-page{
+    right: -5px;
+    padding: 8px 0 0 5px;
+    position: absolute;
+    top: 0;
+    color: #b3b3b3;
+    font-size: 32px;
+    width: 30px;
+    height: 510px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.li-page-icon {
+    padding-top: 248px;
+    font-size: 21px;
+    color: #b3b3b3;
+}
+
+.item-quality {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: url(https://www.foody.vn/Style/images/delivery-service/icon-quality-merchant.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    line-height: 0;
+}
+
+.item-quality-text {
+    top: 3px!important;
+    padding-left: 3px;
+}
+
+.dropdown-list {
+    display: none;
+    margin: 0;
+    padding: 0;
+    max-width: 770px;
+    height: 60px;
+    float: left;
+    left: 0px;
+    min-width: 180px;
+    position: absolute;
+    top: 100%;
+    z-index: 20;
+    background-color: #fff;
+    border-radius: 1px;
+    box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+    height: auto;
+}
+
+.nav-box-more:hover .dropdown-list{ 
+    display: block;
+}
+
+.dropdown-list li{
+    display: block;
+    padding: 0;
+    position: relative;
+    border-bottom: 1px solid #eae9e9;
+}
+
+.dropdown-list li a{
+    white-space: nowrap;
+    color: #4a4a4a;
+    display: block;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 8px 10px;
+}
+
+.dropdown-list li a span{
+    white-space: nowrap;
+    color: #4f4f4f;
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 8px 10px;
+}
+

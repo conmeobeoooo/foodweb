@@ -1,0 +1,723 @@
+.sf-restaurant{
+    background-color: #fff;
+    padding-top: 30px;
+    height: 388px;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+}
+
+.detail-restaurant-img{
+    width: 480px;
+    height: 300px;
+    position: relative;
+    float: left;
+}
+
+
+.restaurant-img{
+    width: 100%;
+    height: 100%;
+}
+
+.detail-restaurant-info{
+    float: right;
+    color: #252525;
+    float: right;
+    width: 645px;
+    padding-bottom: 15px;
+}
+
+.breadcrumb{
+    padding-left: 0;
+    margin-bottom: 18px;
+    list-style: none;
+    overflow: hidden;
+    margin-top: -2px;
+}
+
+.breadcrumb-item{
+    float: left;
+    position: relative;
+    padding-right: 4px;
+    font-size: 14.5px;
+}
+
+.breadcrumb-link{
+    font-size: 13px;
+    color: #187caa;
+}
+
+.breadcrumb-item:after{
+    content: "\BB";
+    color: #0288d1;
+    display: inline-block;
+    padding-left: 4px;
+}
+
+.like-restaurant{
+    font-size: 11px;
+    color: #959595;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.tag-preferred{
+    background: #f13233;
+    color: #fff;
+    padding: 3px 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-transform: none;
+}
+
+.tag-icon {
+    font-size: 12px;
+    margin-left: 2px;
+    margin-right: 3px;
+    width: 11px;
+    height: 12px;
+}
+
+.tag-text {
+    font-size: 12px;
+}
+
+.tag-desc{
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.name-restaurant{
+    font-size: 22px;
+    color: #464646;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 4px;
+    line-height: 33px;
+}
+
+.addess-restaurant{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.rating{
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.stars{
+    font-size: 14px;
+    color: #ffc107;
+    display: inline-block;
+}
+
+.star-full{
+    padding-right: 2px;
+}
+
+.star-icon{
+    color: #ffc107;
+}
+
+.number-rating{
+    background-color: #ffc107;
+    padding: 0 5px;
+    border-radius: 4px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.rating-text{
+    font-size: 14px;
+    color: #33302e;
+    font-weight: 401;
+}
+
+.view-more-rating{
+    margin-bottom: 4px;
+}
+
+.view-more-rating a{
+    font-size: 14px;
+    color: #0288d1;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.status-restaurant{
+    margin-bottom: 6px;
+}
+
+.opentime-status{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+
+.stt{
+    width: inherit;
+    height: inherit;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+.online{
+    color: #329900;
+}
+
+.online:before{
+    background-color: #6cc942;
+}
+
+.stt:before{
+    content: "";
+    border-radius: 50%;
+    cursor: pointer;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    z-index: 2;
+}
+
+.stt:after {
+    content: attr(title);
+    font-size: 15px;
+    display: inline-block;
+    white-space: nowrap;
+    color: inherit;
+    padding-left: 5px;
+}
+
+.time{
+    font-size: 15px;
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.fa-clock{
+    color: #959595;
+    margin-right: 3px;
+}
+
+.cost-restaurant{
+    color: #959595;
+    font-size: 15px;
+}
+
+.cost-restaurant-icon{
+    text-align: center;
+    font-size: 9px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 15px;
+    vertical-align: top;
+    padding-top: 3px;
+    margin-right: 3px;
+    margin-top: 1.2px;
+}
+
+.untility-restaurant{
+    border-top: 1px solid #ebebeb;
+    margin-top: 25px;
+}
+
+.utility-item:first-child {
+    padding-left: 0;
+}
+
+.untility-item{
+    float: left;
+    width: 140px;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 30px;
+    padding-left: 0px;
+}
+
+.utility-restaurant .utility-item:first-child {
+    padding-left: 0;
+}
+
+.untility-title{
+    color: #959595;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.untility-content{
+    font-size: 14px;
+}
+
+.icon-untility{
+    background-image: url(https://shopeefood.vn/app/assets/img/partner-vi.png?dec00ea8fc6f5429f18e83d16c3685f8);
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    cursor: pointer;
+    width: 116px;
+    height: 44px;
+}
+
+.icon{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.text-red{
+    color: #ee4d2d!important;
+}
+.text-bold {
+    font-size: 14px;
+    font-weight: 700!important;
+}
+
+.untility-item:last-child{
+    padding-left: 10px;
+}
+
+.untility-item:last-child:before {
+    content: "";
+    width: 1px;
+    height: 30px;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    background-color: #ebebeb;
+}
+
+.relative {
+    position: relative!important;
+}
+
+.menu-restaurant{
+    width: 845px;
+    margin-bottom: 20px;
+    min-height: 226px;
+    float: left;
+}
+
+.active{
+    font-weight: 700;
+    color: #cf2127;
+    cursor: default;
+    font-size: 15px;
+}
+
+.item{
+    /* color: #6d6f71; */
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    padding: 13px 26px;
+}
+
+.menu-restaurant-content{
+    position: relative;
+}
+
+.menu-restaurant-category{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #ebebeb;
+    padding: 15px 5px 15px 15px;
+    width: 235px;
+    margin-right: 10px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.list-category{
+    position: relative;
+}
+
+.scrollbar-container{
+    max-height: calc(100vh - 100px);
+    position: relative;
+}
+
+.ps{
+    overflow: hidden!important;
+    overflow-anchor: none;
+    touch-action: auto;
+}
+
+.scrollbar-item{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px 0;
+    padding: 2px 0;
+}
+
+.scrollbar-text-active{
+    background-color: #959595;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 3px 7px 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.scrollbar-text{
+    font-size: 12.5px;
+    display: inline-block;
+    color: #6d6f71;
+    text-transform: uppercase;
+    padding: 3px 7px 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.item-restaurant-desc{
+    font-size: 13px;
+    color: #464646;
+    display: block;
+    padding-top: 8px;
+    line-height: 1.6em;
+}
+
+.menu-restaurant-detail{
+    width: 590px;
+    height: 550px;
+    padding: 6px 15px;
+    float: right;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.menu-restaurant-list{
+    position: relative;
+}
+
+.menu-restaurant-search{
+    position: sticky;
+    top: 70px;
+    background: #fff;
+    z-index: 2;
+    padding: 15px 0 10px;
+}
+
+.input-group{
+    margin: 0;
+    position: relative;
+    color: #46464c;
+}
+
+.search-items{
+    position: sticky;
+    top: 70px;
+    background: #fff;
+    z-index: 2;
+    padding: 15px 0 10px;
+}
+
+.input-group{
+    margin: 0;
+    position: relative;
+    color: #46464c;
+    align-items: stretch;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.search-items-icon {
+    position: absolute;
+    padding: 15px;
+    line-height: 10px;
+}
+
+.search-items-text {
+    font-size: 16px;
+    width: 100%;
+    padding: 0 40px;
+    border: 0;
+    border: 1px solid #ededed;
+    height: 40px;
+    padding-top: 4px;
+}
+
+.restaurant-content-item{
+    box-sizing: border-box;
+    direction: ltr;
+    height: auto;
+    position: relative;
+    width: 558px;
+    will-change: transform;
+    overflow: auto;
+    outline: none;
+}
+
+.restaurant-banner-item{
+    width: auto;
+    height: 650px;
+    max-width: 558px;
+    max-height: 1190px;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu-group{
+    height: 56px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.title-menu{
+    text-transform: uppercase;
+    color: #6d6f71;
+    padding: 5px 0 0;
+    margin: 10px 2px 20px;
+}
+
+.item-restaurant-row{
+    height: 81px;
+    left: 0px;
+    position: absolute;
+    top: 56px;
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 10px;
+}
+
+.row{
+    height: 60px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* margin-right: -10px; */
+    /* margin-left: -10px; */
+}
+
+.inline{
+    background: none!important;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    cursor: pointer;
+}
+
+.item-restaurant-name {
+    color: #464646;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 13px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.item-restaurant-info{
+    padding-left: 20px;
+    width: 379px;
+    height: 60px;
+}
+
+.product-price{
+    margin-right: 20px;
+}
+
+.old-price{
+    font-size: 13px;
+    text-decoration: line-through;
+    color: #6d6f71;
+}
+
+.price-top{
+    font-weight: 400;
+    position: relative;
+    top: -9px;
+    font-size: 10px;
+    right: 0;
+}
+
+.current-price{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0288d1;
+}
+
+.text-right{
+    text-align: right!important;
+}
+
+.btn-adding{
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 20px;
+    width: 22px;
+    height: 22px;
+    background-color: #ee4d2d;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.item-restaurant-more {
+    margin-right: 0px;
+}
+
+.QRcode {
+    position: absolute;
+    top: 48px;
+    right: 10px;
+    width: 315px;
+    background-image: url(https://shopeefood.vn/app/assets/img/qrcode.png?02f483efc36fa5fafaa4254671fa5492);
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footer{
+    clear: both;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.container-inner{
+    /* border-top: 1px solid #ebebeb; */
+    padding-top: 32px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    overflow: hidden;
+    clear: both;
+}
+
+.block-footer{
+    width: 241px;
+    float: left;
+    color: #959595;
+}
+
+.title-block{
+    font-weight: 700;
+    color: #252525;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.menu-footer{
+    line-height: 25px;
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.menu-item{
+    font-size: 15px;
+    cursor: pointer;
+    color: #959595;
+}
+
+.menu-item a{
+    color: #08f;
+}
+
+.footer-app{
+    width: 122px;
+    height: 40px;
+    display: grid;
+    margin-bottom: 25px;
+}
+
+.app-store{
+    background-image: url(https://shopeefood.vn/app/assets/img/AppStore-vn.png?1afe809ef1884945ef4a05dacec7679e);
+    background-size: cover;
+}
+
+.app-Android{
+    background-image: url(https://shopeefood.vn/app/assets/img/PlayStore-vn.png?a5bc23fd384a415654c9115efebb67db);
+    background-size: cover;
+}
+
+.app-Huawei{
+    background-image: url(https://shopeefood.vn/app/assets/img/Huawei-gallery-vn.png?a17f5e9f3500255a52ec23de20dc115a);
+    background-size: cover;
+}
+
+.block-text{
+    font-size: 14px;
+    margin-bottom: 4px;
+    margin-top: 0;
+    color: #4f4f4f;
+}
+
+.text-center{
+    text-align: center!important;
+}
+
+.logo-footer{
+    margin-top: 14px;
+    margin-bottom: 17px;
+}
+
+.social-icon{
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.social-icon li{
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.icons {
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    line-height: 30px;
+    display: inline-block;
+    background-color: #959595;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+
+.block-footer-last{
+    width: 241px;
+    float: right;
+    color: #959595;
+}
+
+.font12{
+    font-size: 12px;
+}
